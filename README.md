@@ -1,58 +1,54 @@
-🐦 Bird Chirp Recognition AI — CREST Gold Project
-🎯 Project Overview
-This project aims to identify bird species based on their chirps using audio classification and machine learning. It was developed as part of a CREST Gold award submission, combining AI model training, audio preprocessing, and app development.
+# 🐦 Bird Chirp Recognition AI — CREST Gold Project
 
-🧠 Team Roles
-Chubz – AI Developer Responsible for data preprocessing, model training, evaluation, and Hugging Face integration.
+## 🎯 Project Overview
+This project identifies bird species based on their chirps using audio classification and machine learning. Developed for a CREST Gold award, it combines AI model training, audio preprocessing, and web-based deployment to support local biodiversity awareness.
 
-Toast – App Developer Designed and implemented the user-facing app interface using Gradio.
+The website allows users to upload bird call recordings and receive instant predictions of the species, making it accessible to schools, nature groups, and citizen scientists across the West Midlands.
 
-🛠️ Tools & Technologies
-Python (Anaconda environment)
+---
 
-Librosa – Audio preprocessing
+## 🧠 Team Roles
+- **Chubz** – AI Developer  
+  Responsible for data preprocessing, model training, evaluation, and Hugging Face integration.
 
-PyTorch – Model training
+- **Toast** – Web Developer  
+  Designed and implemented the user-facing website interface using Gradio and Hugging Face Spaces.
 
-Gradio – Web app interface
+---
 
-Hugging Face – Model experimentation and deployment
+## 🛠️ Tools & Technologies
+- **Python** (Anaconda environment)
+- **Librosa** – Audio preprocessing
+- **PyTorch** – Model training
+- **Gradio** – Web interface
+- **Hugging Face** – Model hosting and deployment
+- **VS Code** – Development environment
+- **GitHub** – Version control and collaboration
 
-VS Code – Development environment
+---
 
-GitHub – Version control and collaboration
+## 📁 Folder Structure
 
-📁 Folder Structure
+bird-chirp-ai/ ├── ai/ # AI model, training scripts, inference ├── web/ # Gradio interface for website deployment ├── data/ # Sample bird calls and spectrograms ├── results/ # Accuracy scores, confusion matrix ├── report/ # CREST report and reflection log ├── presentation/ # Slides and screenshots ├── README.md # Project overview and instructions
+
 Code
-bird-chirp-ai/
-├── ai/                  # AI model, training scripts, inference
-├── app/                 # Gradio app code
-├── data/                # Sample bird chirps and spectrograms
-├── results/             # Accuracy scores, confusion matrix
-├── report/              # CREST report and reflection log
-├── presentation/        # PowerPoint slides and screenshots
-├── README.md            # Project overview and instructions
-🚀 How to Run the App
-Clone the repo:
 
-bash
-git clone https://github.com/yourusername/bird-chirp-ai.git
-cd bird-chirp-ai
-Activate your environment:
+---
 
-bash
-conda activate bird-ai
-Install dependencies:
+## 🌐 How to Use the Website
 
-bash
-pip install -r requirements.txt
-Launch the app:
+Visit the live site at:  
+**https://huggingface.co/spaces/yourusername/bird-chirp-recognition**
 
-bash
-python app/main.py
+1. Upload a `.wav` or `.mp3` file of a bird call
+2. The model analyzes the audio and predicts the species
+3. View species info and conservation notes
 
-### 🐦 Target Bird Species — West Midlands Focus
-This project focuses on bird species commonly found in the West Midlands region of the UK. The AI model is trained to recognize chirps from a diverse range of garden, woodland, and urban birds. Below is a list of species and brief descriptions of their vocalizations:
+---
+
+## 🐦 Target Bird Species — West Midlands Focus
+
+This project focuses on bird species commonly found in the West Midlands region of the UK. The AI model is trained to recognize calls from a diverse range of garden, woodland, and urban birds. Below is a list of species and brief descriptions of their vocalizations:
 
 - **European Robin** – Silvery, crystal-clear song; wistful in winter; often sings at dusk.
 - **Blackbird** – Rich, fluty verses; confident and low-pitched; often heard at dawn.
@@ -69,15 +65,17 @@ This project focuses on bird species commonly found in the West Midlands region 
 - **Rook** – Harsh, croaking caws; social and noisy.
 - **Collared Dove** – Soft, rhythmic cooing: “coo-coo-coo.”
 - **Magpie** – Chattering and cackling calls; harsh and varied.
-- maybe - **Long-tailed Tit** – High-pitched trills and “tsirrup” calls; travels in groups.
+- **Long-tailed Tit** – High-pitched trills and “tsirrup” calls; travels in groups.
 - **Coal Tit** – Thin, high-pitched “see-see” notes; quieter than other tits.
-- **Nuthatch**(commonly known as Nuthatch in the UK) – Loud, whistling “twit-twit-twit”; often repeated.
+- **Nuthatch** – Loud, whistling “twit-twit-twit”; often repeated.
 - **Treecreeper** – Faint, high-pitched “tsee” call; hard to hear.
 - **Meadow Pipit** – Thin, repetitive chirps; often heard in open fields.
 - **Willow Warbler** – Sweet, descending song; soft and flowing.
 - **Chiffchaff** – Repetitive “chiff-chaff” notes; simple and rhythmic.
 
-This regional focus supports local conservation awareness and makes the app useful for schools, nature groups, and citizen science initiatives across the West Midlands.
+This regional focus supports conservation awareness and makes the website a valuable tool for education and citizen science in the West Midlands.
 
-📜 License
-This project is licensed under the MIT License. See LICENSE for details.
+---
+
+## 📜 License
+This project is licensed under the MIT License. See `LICENSE` for details.
