@@ -76,7 +76,6 @@ This project focuses on bird species commonly found in the West Midlands region 
 - **Meadow Pipit** – Thin, repetitive chirps; often heard in open fields.
 - **Willow Warbler** – Sweet, descending song; soft and flowing.
 - **Chiffchaff** – Repetitive “chiff-chaff” notes; simple and rhythmic.
-- **Pied Wagtail** – Sharp “tsweep” call; often heard while flying.
 
 This regional focus supports local conservation awareness and makes the app useful for schools, nature groups, and citizen science initiatives across the West Midlands.
 
